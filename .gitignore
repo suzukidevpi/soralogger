@@ -1,0 +1,22 @@
+# Arduino/ESP32 build files
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+*.ino.cpp
+
+# Build directories
+/build/
+.build/
+
+# Local configuration files
+local.properties
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.ide/
+
+# Mac specific
+.DS_Store
